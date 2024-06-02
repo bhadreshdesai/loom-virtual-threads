@@ -7,7 +7,7 @@
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
+			"version": "22",
 			"installMaven": "false",
 			"installGradle": "false"
 		}
@@ -17,7 +17,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	,"postCreateCommand": "sdk install java 22.0.1-tem; sdk default java 22.0.1-tem"
+	// ,"postCreateCommand": "sdk install java 22.0.1-tem; sdk default java 22.0.1-tem"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
